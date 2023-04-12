@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5684387-9031-47e4-bd3c-2b0194a670de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Notes-To-Lectures/04.URLs_and_Views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_web_revision/departments/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes-To-Lectures/03.Django_Introduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notes-To-Lectures/03.Django_Introduction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_web_revision/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_web_revision/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_web_revision/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_web_revision/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes-To-Lectures/04.URLs_and_Views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notes-To-Lectures/04.URLs_and_Views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +84,8 @@
       <workItem from="1680686847776" duration="5538000" />
       <workItem from="1680846021064" duration="10681000" />
       <workItem from="1681105092416" duration="11683000" />
-      <workItem from="1681187831499" duration="9907000" />
+      <workItem from="1681187831499" duration="9939000" />
+      <workItem from="1681280874271" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="second commit - PostgreSQL">
       <created>1680869399304</created>
@@ -104,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681135364191</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fourth commit - URLs and Views">
+      <created>1681223313309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681223313310</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit - PostgreSQL" />
     <MESSAGE value="third commit - Django Intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit - Django Intro" />
+    <MESSAGE value="fourth commit - URLs and Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth commit - URLs and Views" />
   </component>
 </project>
