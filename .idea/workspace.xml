@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5684387-9031-47e4-bd3c-2b0194a670de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Notes-To-Lectures/05.Django_Templates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/departments/all.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes-To-Lectures/04.URLs_and_Views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notes-To-Lectures/04.URLs_and_Views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_web_revision/departments/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_web_revision/departments/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes-To-Lectures/05.Django_Templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notes-To-Lectures/05.Django_Templates.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hristo-pc/PycharmProjects/python_web_revision"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hristo-pc/PycharmProjects/python_web_revision&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hristo-pc\PycharmProjects\python_web_revision\templates" />
@@ -93,7 +89,9 @@
       <workItem from="1681105092416" duration="11683000" />
       <workItem from="1681187831499" duration="9939000" />
       <workItem from="1681280874271" duration="1305000" />
-      <workItem from="1681812039097" duration="7735000" />
+      <workItem from="1681812039097" duration="7755000" />
+      <workItem from="1682324990437" duration="3722000" />
+      <workItem from="1683009839866" duration="2414000" />
     </task>
     <task id="LOCAL-00001" summary="second commit - PostgreSQL">
       <created>1680869399304</created>
@@ -123,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681289729854</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sixth commit - URLs and Views">
+      <created>1681827053205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681827053205</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +139,7 @@
     <MESSAGE value="third commit - Django Intro" />
     <MESSAGE value="fourth commit - URLs and Views" />
     <MESSAGE value="fifth commit - URLs and Views" />
-    <option name="LAST_COMMIT_MESSAGE" value="fifth commit - URLs and Views" />
+    <MESSAGE value="sixth commit - URLs and Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="sixth commit - URLs and Views" />
   </component>
 </project>
