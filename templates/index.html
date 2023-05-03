@@ -1,0 +1,18 @@
+{% load tags %}
+{% block page_content %}
+<h1>
+    {{ title }} : {{ value }}
+    {{ info.address }}
+    {{ now|date:'y/m/d' }}
+</h1>
+<h1>
+    {{ title|upper }} : {{ value|add:2 }}
+    {{ info.address }}
+    {{ now }}
+{#    Odd is the name of the filter#}
+    {{ values|odd }}
+</h1>
+
+{% sample_tag department='Engineering' company='SoftUni' %}
+
+{% endblock %}

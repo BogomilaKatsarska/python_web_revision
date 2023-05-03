@@ -1,0 +1,20 @@
+{#This is the name of the file#}
+{% load filters %}
+{% load tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<nav>
+    <a href="{% url 'index' %}">Go to index</a>
+</nav>
+
+{#Placeholder for child templates to use#}
+{% block page_content %}
+{% endblock %}
+{% include 'partials/footer.html' %}
+</body>
+</html>
