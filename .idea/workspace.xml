@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5684387-9031-47e4-bd3c-2b0194a670de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python_web_revision/departments/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_web_revision/departments/templatetags/filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_web_revision/departments/templatetags/tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/partials/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tags/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes-To-Lectures/06. Models_Part_One.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_web_revision/web/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staticfiles/site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notes-To-Lectures/05.Django_Templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notes-To-Lectures/05.Django_Templates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_web_revision/departments/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_web_revision/departments/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_web_revision/departments/templatetags/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_web_revision/departments/templatetags/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_web_revision/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_web_revision/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_web_revision/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_web_revision/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -43,19 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hristo-pc/PycharmProjects/python_web_revision&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/hristo-pc/PycharmProjects/python_web_revision",
+    "list.type.of.created.stylesheet": "CSS"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hristo-pc\PycharmProjects\python_web_revision\templates" />
       <recent name="C:\Users\hristo-pc\PycharmProjects\python_web_revision\python_web_revision" />
+      <recent name="C:\Users\hristo-pc\PycharmProjects\python_web_revision\templates" />
       <recent name="C:\Users\hristo-pc\PycharmProjects\python_web_revision" />
     </key>
   </component>
@@ -102,7 +102,8 @@
       <workItem from="1681812039097" duration="7755000" />
       <workItem from="1682324990437" duration="3722000" />
       <workItem from="1683009839866" duration="2446000" />
-      <workItem from="1683091511875" duration="17115000" />
+      <workItem from="1683091511875" duration="17175000" />
+      <workItem from="1683199937530" duration="6548000" />
     </task>
     <task id="LOCAL-00001" summary="second commit - PostgreSQL">
       <created>1680869399304</created>
@@ -146,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683014834226</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="seventh commit - Templates - static files missing only">
+      <created>1683121466604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683121466604</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +167,7 @@
     <MESSAGE value="fifth commit - URLs and Views" />
     <MESSAGE value="sixth commit - URLs and Views" />
     <MESSAGE value="seventh commit - Templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="seventh commit - Templates" />
+    <MESSAGE value="seventh commit - Templates - static files missing only" />
+    <option name="LAST_COMMIT_MESSAGE" value="seventh commit - Templates - static files missing only" />
   </component>
 </project>

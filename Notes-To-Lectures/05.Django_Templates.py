@@ -28,5 +28,9 @@ DTL and Jinja2
 4.{# Comments #} --> CTRL + /
 
 5. Template Inheritance - block, endblock, extends
+
+6. Static Files in Django - CSS, JavaScript, etc.
+
+7. BOOTSTRAP - load CSS and JS in base template
 '''
 
