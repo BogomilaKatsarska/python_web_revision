@@ -15,5 +15,6 @@
 </h1>
 
 {% sample_tag department='Engineering' company='SoftUni' %}
+    <a href="{% url 'delete employee' pk=employee.pk %}">Delete Employee</a>
 
 {% endblock %}
