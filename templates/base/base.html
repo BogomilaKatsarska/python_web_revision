@@ -5,6 +5,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <form action="{% url 'index' %}" method='get'>
+        {{ form }}
+        <button>Execute</button>
+    </form>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="{% static 'site.css' %}">
@@ -18,5 +22,6 @@
 {% block page_content %}
 {% endblock %}
 {% include 'partials/footer.html' %}
+{% csrf_token %}
 </body>
 </html>
