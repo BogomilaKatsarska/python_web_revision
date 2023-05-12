@@ -14,6 +14,11 @@ def validate_priority(value):
         raise ValidationError('Priority must be between 1 and 10.')
 
 
+def validate_text(value):
+    if '_' in value:
+        raise ValidationError('The value should not contain "_".')
+
+
 @deconstructible
 class ValueInRangeValidator:
     def __init__(self, min_value, max_value):

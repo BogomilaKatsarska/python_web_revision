@@ -17,4 +17,9 @@
 {% sample_tag department='Engineering' company='SoftUni' %}
     <a href="{% url 'delete employee' pk=employee.pk %}">Delete Employee</a>
 
+
+    <form action="{% url 'index' %}" method="post">
+    {{ form }}
+    </form>
+
 {% endblock %}
