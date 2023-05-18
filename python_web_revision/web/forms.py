@@ -23,9 +23,18 @@ class PersonForm(forms.Form):
 
 
 class TodoForm(forms.Form):
-    text = forms.CharField()
+    text = forms.CharField(
+        error_messages={
+            'required': 'Todo text must be set.'
+        }
+    )
     is_done = forms.BooleanField(
         required=False,
+    )
+    profile_image = forms.ImageField(
+        upload_to = 'persons',
+        null = True,
+        blank = True,
     )
 
     def clean_text(self):
@@ -50,3 +59,14 @@ def index(request):
         'form': form,
     }
     return render(request, 'index.html', context)
+
+
+class PersonCreateForm(forms.ModelForm):
+    class Meta:
+        model = Person
+        fields = '__all__'
+
+    def clean_profile_image(self):
+        profile_image = self.cleaned_data['profile_image']
+        profile_image.name = self.cleaned_data['name']
+        return profile_image
